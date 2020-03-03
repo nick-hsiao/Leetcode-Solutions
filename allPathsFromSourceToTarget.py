@@ -12,4 +12,4 @@ def allPathsSourceTarget(graph):
     dfs([0],0)
     return res
     
-print(allPathsSourceTarget([[1,2],[3],[3],[]]))
+print(allPathsSourceTarget([[1,2],[3],[3],[]])) 
